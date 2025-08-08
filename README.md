@@ -1,10 +1,11 @@
-<div align="center" style="margin-bottom:-28px;">
+<div align="center" >
   <img src="assets/profile-banner.gif" alt="Banner animado"
        style="border-radius: 6px 6px 2px 2px;" />
 </div>
 
 
-# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb211bTdhOGtubmU2NGFrMXU3ZWoyYmY3aGwxb3NiMnl2ajl4NGtveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JPLBRU5A93K0g/giphy.gif" width="50px">&nbsp;***About me***
+
+# <img src="assets/title-profile.gif" width="90px" alt="Cabezera animada">&nbsp;***About me***
 
 
 I am an undergraduate **Software Development Technology** student at Universidad del Valle, Palmira. Java, Python, JavaScript, HTML, and CSS are the programming languages I am good at. I love to learn and build something new, productive, innovative, and creative.
