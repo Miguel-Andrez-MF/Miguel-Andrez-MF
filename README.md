@@ -1,5 +1,4 @@
-# 👋 Hi, I'm Miguel Andrés Marín
-
+<img src="assets/profile-banner.gif" alt="Banner animado" style="border-radius: 6px 6px 2px 2px;" align="center" />
 
 
 # <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb211bTdhOGtubmU2NGFrMXU3ZWoyYmY3aGwxb3NiMnl2ajl4NGtveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JPLBRU5A93K0g/giphy.gif" width="60px">&nbsp;***About me***
