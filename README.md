@@ -22,6 +22,11 @@ I am an undergraduate **Software Development Technology** student at Universidad
 
 <br>
 
+<!--START_PROGRESS-->
+🚀 Year progress ...
+<!--END_PROGRESS-->
+
+
 ## 🛠 Tech Stack
 
 ### **Backend & DevOps**
