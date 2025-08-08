@@ -7,7 +7,8 @@
 
 I am an undergraduate **Software Development Technology** student at Universidad del Valle, Palmira. Java, Python, JavaScript, HTML, and CSS are the programming languages I am good at. I love to learn and build something new, productive, innovative, and creative.
 
-<img align="right" width=300px alt="Unicorn" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODIza3RjcWR2ejVlMzN4NmVmZWQxZmd1N2xpN2FpcDFoZGRkaTlsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/6KirhLJyR7oMcwgJQk/giphy.gif" />
+
+<img src="assets/CodingSticker.gif" alt="Computer" width="300" align="right" />
 
 
 * **I am interested in Web development, Cloud deployment, and UI design**
