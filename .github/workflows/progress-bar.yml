@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *" # cada día a medianoche UTC
   workflow_dispatch: # ejecutar manualmente
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -19,9 +22,6 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Run progress bar script
         run: node index.js
 
@@ -32,5 +32,3 @@ jobs:
           git add README.md
           git commit -m "Update year progress" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
