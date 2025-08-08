@@ -1,18 +1,13 @@
-<div align="center" >
-  <img src="assets/profile-banner.gif" alt="Banner animado"
-       style="border-radius: 6px 6px 2px 2px;" />
+<img src="assets/profile-banner.gif" alt="Banner animado" />
+<div align="center">
+
+# *About me*
+
 </div>
-
-
-
-# <img src="assets/title-profile.gif" width="90px" alt="Cabezera animada">&nbsp;***About me***
-
 
 I am an undergraduate **Software Development Technology** student at Universidad del Valle, Palmira. Java, Python, JavaScript, HTML, and CSS are the programming languages I am good at. I love to learn and build something new, productive, innovative, and creative.
 
-
 <img src="assets/CodingSticker.gif" alt="Computer" width="250" align="right" />
-
 
 * **I am interested in Web development, Cloud deployment, and UI design**
 - 🌱 I’m currently learning ...
@@ -21,7 +16,7 @@ I am an undergraduate **Software Development Technology** student at Universidad
 - 👯 I’m looking forward to collaborate on open source projects.
 - ✔ Ask me about anything, I am happy to help, only if the ball is in my court!😉<br>
 - Outside tech: 🎮 I enjoy playing video games, 📖 reading manga, and 🎬 watching movies.
-- 📫 Reach out to me at: <a href="miguelandresmarinf@gmail.com">miguelandresmarinf@gmail.com</a>
+- 📫 Reach out to me at: <a href="miguel.andres.dev@gmail.com">miguel.andres.dev@gmail.com</a>
 
 <br>
 
@@ -29,8 +24,7 @@ I am an undergraduate **Software Development Technology** student at Universidad
 🚀 Year progress ▰▰▰▰▰▰▰▱▱▱▱▱ 60.16%
 <!--END_PROGRESS-->
 
-
-## 🛠 Tech Stack
+## <img src="assets/title-profile.gif" width="90px" alt="Cabezera animada">&nbsp;🛠 Tech Stack
 
 ### **Backend & DevOps**
 ![Java](https://img.shields.io/badge/-Java-000?style=for-the-badge&logo=java&logoColor=007396)
