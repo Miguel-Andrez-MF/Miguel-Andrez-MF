@@ -2,8 +2,8 @@ name: Progress Bar CI
 
 on:
   schedule:
-    - cron: "0 0 * * *" # cada día a medianoche UTC
-  workflow_dispatch: # ejecutar manualmente
+    - cron: "0 0 * * *" # Cada día a medianoche UTC
+  workflow_dispatch: # Permite ejecutarlo manualmente
 
 permissions:
   contents: write
@@ -15,7 +15,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -27,8 +28,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update year progress" || echo "No changes to commit"
-          git push
+          git commit -m "Update year progress" || exit 0
+          git push origin HEAD:main
