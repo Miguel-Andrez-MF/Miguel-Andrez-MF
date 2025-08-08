@@ -1,6 +1,9 @@
-# 👋 Hi, I'm Miguel Andrés Marín  
+# 👋 Hi, I'm Miguel Andrés Marín
 
-## <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
+<img align="right" width=300px alt="Unicorn" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODIza3RjcWR2ejVlMzN4NmVmZWQxZmd1N2xpN2FpcDFoZGRkaTlsYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/6KirhLJyR7oMcwgJQk/giphy.gif" />
+
+# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb211bTdhOGtubmU2NGFrMXU3ZWoyYmY3aGwxb3NiMnl2ajl4NGtveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JPLBRU5A93K0g/giphy.gif" width="60px">&nbsp;***About me***
+
 I am an undergraduate **Software Development Technology** student at Universidad del Valle, Palmira. Java, Python, JavaScript, HTML, and CSS are the programming languages I am good at. I love to learn and build something new, productive, innovative, and creative.
 * **I am interested in Web development, Cloud deployment, and UI design**
 - 🌱 I’m currently learning ...
@@ -10,6 +13,7 @@ I am an undergraduate **Software Development Technology** student at Universidad
 - ✔ Ask me about anything, I am happy to help, only if the ball is in my court!😉<br>
 - Outside tech: 🎮 I enjoy playing video games, 📖 reading manga, and 🎬 watching movies.
 - 📫 Reach out to me at: <a href="miguelandresmarinf@gmail.com">miguelandresmarinf@gmail.com</a>
+
 
 
 ## 🛠 Tech Stack
