@@ -23,7 +23,7 @@ I am an undergraduate **Software Development Technology** student at Universidad
 <br>
 
 <!--START_PROGRESS-->
-🚀 Year progress ...
+🚀 Year progress ▰▰▰▰▰▰▰▱▱▱▱▱ 60.16%
 <!--END_PROGRESS-->
 
 
