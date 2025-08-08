@@ -1,29 +1,32 @@
-const fs = require('fs');
+const fs = require("fs");
 
-const thisYear = new Date().getFullYear();
-const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime();
-const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime();
-const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear);
+function getYearProgressBar() {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 1);
+    const end = new Date(now.getFullYear() + 1, 0, 1);
+    const progress = (now - start) / (end - start);
 
-function generateProgressBar() {
-    const progressBarCapacity = 12; // número de bloques totales
-    const filledBlocks = Math.round(progressOfThisYear * progressBarCapacity);
-    const emptyBlocks = progressBarCapacity - filledBlocks;
-    return '▰'.repeat(filledBlocks) + '▱'.repeat(emptyBlocks);
+    const totalBlocks = 12; // Número de bloques ▰
+    const filledBlocks = Math.floor(progress * totalBlocks);
+    const emptyBlocks = totalBlocks - filledBlocks;
+
+    const progressBar = "▰".repeat(filledBlocks) + "▱".repeat(emptyBlocks);
+    const percentage = (progress * 100).toFixed(2);
+
+    return `🚀 Year progress ${progressBar} ${percentage}%`;
 }
 
-const progressBar = generateProgressBar();
-const percentage = (progressOfThisYear * 100).toFixed(2);
+function updateReadme() {
+    const readmePath = "./README.md";
+    const readme = fs.readFileSync(readmePath, "utf8");
 
-const readmePath = 'README.md';
-const readmeContent = fs.readFileSync(readmePath, 'utf8');
+    const newContent = readme.replace(
+        /<!--START_PROGRESS-->[\s\S]*<!--END_PROGRESS-->/,
+        `<!--START_PROGRESS-->\n${getYearProgressBar()}\n<!--END_PROGRESS-->`
+    );
 
-const newProgressLine = `🚀 Year progress ${progressBar} ${percentage}%`;
+    fs.writeFileSync(readmePath, newContent);
+    console.log("✅ README.md actualizado con el progreso del año");
+}
 
-const updatedReadme = readmeContent.replace(
-  /(<!--START_PROGRESS-->)([\s\S]*?)(<!--END_PROGRESS-->)/,
-  `$1\n${newProgressLine}\n$3`
-);
-
-fs.writeFileSync(readmePath, updatedReadme);
-console.log('README.md actualizado con el progreso del año 🚀');
+updateReadme();
