@@ -11,7 +11,6 @@ I am an undergraduate **Software Development Technology** student at Universidad
 
 * **I am interested in Web development, Cloud deployment, and UI design**
 - 🌱 I’m currently learning ...
-  - Node.js for backend development
   - React js
 - 👯 I’m looking forward to collaborate on open source projects.
 - ✔ Ask me about anything, I am happy to help, only if the ball is in my court!😉<br>
