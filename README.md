@@ -42,7 +42,6 @@ I am an undergraduate **Software Development Technology** student at Universidad
 ![HTML5](https://img.shields.io/badge/-HTML5-000?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?style=for-the-badge&logo=css3)
 ![React](https://img.shields.io/badge/-React-000?style=for-the-badge&logo=react)
-![Vue.js](https://img.shields.io/badge/-Vue.js-000?style=for-the-badge&logo=vue.js)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?style=for-the-badge&logo=bootstrap)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-000?style=for-the-badge&logo=tailwind-css)
 ![Figma](https://img.shields.io/badge/-Figma-000?style=for-the-badge&logo=figma)
