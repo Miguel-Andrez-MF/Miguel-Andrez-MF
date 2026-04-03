@@ -20,7 +20,7 @@ I am an undergraduate **Software Development Technology** student at Universidad
 <br>
 
 <!--START_PROGRESS-->
-🚀 Year progress ▰▰▱▱▱▱▱▱▱▱▱▱ 24.96%
+🚀 Year progress ▰▰▰▱▱▱▱▱▱▱▱▱ 25.24%
 <!--END_PROGRESS-->
 
 ## <img src="assets/title-profile.gif" width="90px" alt="Cabezera animada">&nbsp;🛠 Tech Stack
